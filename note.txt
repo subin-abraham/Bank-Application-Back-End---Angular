@@ -1,0 +1,49 @@
+server Creation
+---------------------
+Basic Commands
+--------------
+1 Creation of the package .json - npn init
+2 create node modules - npn i express (installiation of express)
+3 install mongoose - npm i mongoose
+Basic steps
+-------------
+1 creating a folder (bank server)
+2 create package.json
+3 install express
+4 create index.js
+5 inport express inside the index.js
+6 create an app using the express
+7 setup port number
+8 resolving http request
+    get - to get the data
+    post - to post the data
+    put - updata data partially
+    patch - update data completely
+    delete - delete the data
+
+9 JWT TOKEN - client - login - token genetated - token is used to handle all the request 
+    installing - npm i jsonwebtoken
+    generate token - sign()
+
+10 Middleware - It comes in the middle of the request and response cycle of the nodejs execution process
+    1 application specific Middleware - for entire application 
+    req,res,next
+    2 router specific Middleware - validate token - vearify()
+11 Database integration
+    1 install mongoose - npm i mongoose
+
+12 Asynchronous function resolving - promise
+    1 resolving state - .then ()
+    2 reject statue - catch()
+
+13 CORS - cross orgin resource sharing
+    install CORS - npm i cors
+    use - connect 2 port and share data
+    port 4200-------request-------->3000(node)
+
+14 asynchronous call ----to resolve---> RxJs -(Reactive Extension for JS)
+ Js- promise
+ Ts - RxJs (library)
+    1 observable
+        1 resolved - Subscribe()
+        2 rejected - catch()
